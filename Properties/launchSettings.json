@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FasterFlats": {
+      "commandName": "Project",
+      "commandLineArgs": "\"c:\\Program Files\\N.I.N.A. - Nighttime Imaging 'N' Astronomy\\NINA.exe\" "
+    }
+  }
+}
