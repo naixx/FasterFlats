@@ -7,8 +7,8 @@ using System.Runtime.InteropServices;
 
 // [MANDATORY] The assembly versioning
 //Should be incremented for each new release build of a plugin
-[assembly: AssemblyVersion("1.0.0.1")]
-[assembly: AssemblyFileVersion("1.0.0.1")]
+[assembly: AssemblyVersion("1.0.0.2")]
+[assembly: AssemblyFileVersion("1.0.0.2")]
 
 // [MANDATORY] The name of your plugin
 [assembly: AssemblyTitle("FasterFlats")]
@@ -47,7 +47,7 @@ using System.Runtime.InteropServices;
 //[Optional] The url to a featured logo that will be displayed in the plugin list next to the name
 [assembly: AssemblyMetadata("FeaturedImageURL", "")]
 //[Optional] A url to an example screenshot of your plugin in action
-[assembly: AssemblyMetadata("ScreenshotURL", "")]
+[assembly: AssemblyMetadata("ScreenshotURL", "https://github.com/naixx/FasterFlats/blob/master/FasterFlats.jpg?raw=true")]
 //[Optional] An additional url to an example example screenshot of your plugin in action
 [assembly: AssemblyMetadata("AltScreenshotURL", "")]
 //[Optional] An in-depth description of your plugin
@@ -63,11 +63,11 @@ To address this, I created **FasterFlats** — a simple yet effective plugin tha
 
 ## **How It Works**
 
-The plugin introduces two custom sequence items:
+The plugin introduces two custom sequence options:
 - **Disable Auto-Stretch & Annotation**
 - **Enable Auto-Stretch & Annotation**
 
-Insert these commands before and after your flat capture routine to minimize processing overhead during high-frequency captures.
+Insert instructions before and after your flat capture routine to minimize processing overhead during high-frequency captures.
 
 > ⚠️ **Note**: This functionality is designed for **non-light frames only** (i.e., flats, biases, darks). Disabling auto-stretch has no effect on light frames in normal imaging sequences.")]
 

@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using NINA.Core.Model;
 using NINA.Core.Utility.Notification;
+using NINA.Equipment.Interfaces;
 using NINA.Equipment.Interfaces.ViewModel;
 using NINA.Profile.Interfaces;
 using NINA.Sequencer.SequenceItem;
@@ -77,6 +78,9 @@ namespace NaixxGithub.NINA.Fasterflats.FasterflatsTestCategory {
 
         public FasterflatsInstruction(FasterflatsInstruction copyMe) : this(copyMe.profileService, copyMe.imageControlVm) {
             CopyMetaData(copyMe);
+            AnnotateImage = copyMe.AnnotateImage;
+            DetectStars = copyMe.DetectStars;
+            AutoStretch = copyMe.AutoStretch;
         }
 
         private bool? _annotateImage;
